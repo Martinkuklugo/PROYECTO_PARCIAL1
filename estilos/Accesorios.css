@@ -68,7 +68,7 @@ header
     color: rgb(255, 0, 0);
     padding-top: 150px;
     padding-left: 50PX;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 .img1
 {
@@ -78,6 +78,7 @@ header
 {
 	padding-left: 30px;
 	padding-right: 30px;
+    padding-top: 30px;
 }
 .img3
 {
@@ -92,6 +93,18 @@ header
 .img5
 {
 	padding-left: 60px;
+
+}
+.img6
+{
+	padding-left: 60px;
+    padding-top: 40px;
+
+}
+.img7
+{
+	padding-left: 60px;
+    padding-top: 40px;
 
 }
 .container1
@@ -151,5 +164,10 @@ footer
   left: 0;
   
 }
+.addproducto{
 
+    display: flex;
+    padding-left: 400px;
+    
+    }
 
