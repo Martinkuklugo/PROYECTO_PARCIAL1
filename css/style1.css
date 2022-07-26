@@ -1,0 +1,20 @@
+#A:checked ~ #imgs .B, #A:checked ~ #imgs .C{
+    display: none;
+}
+
+#B:checked ~ #imgs .A, #B:checked ~ #imgs .C{
+    display: none;
+}
+
+#C:checked ~ #imgs .A, #C:checked ~ #imgs .B{
+    display: none;
+}
+
+.img1{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.img1:hover
+{
+    transform: scale(1.4);
+}
