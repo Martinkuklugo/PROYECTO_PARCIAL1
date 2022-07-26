@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+       <link rel="stylesheet" href="css/mdb.min.css" />
+       <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+      <div class="row g-0 align-items-center">
+        <div class="col-lg-6">
+        <div class="container py-3  px-lg-5 pt-lg-3 pb-lg-4 p-4 w-100 mt-auto">
+            <form action="Galeria1.html" class="needs-validation" novalidate>
+            <div class="form-row">
+            <div class="col-md-11 mb-1">
+            <label for="validationCustom01">Modelo-Marca </label>
+            <input type="text" class="form-control col-lg-7" id="validationCustom01" placeholder="Modelo-Marca" value="" required>
+            <div class="valid-feedback">
+            Looks good!
+            </div>
+            </div>
+            <div class="col-md-11 mb-1">
+            <label for="validationCustom02">Tipo de motor</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="Tipo de motor" value="" required>
+            <div class="valid-feedback">
+            Looks good!
+            </div>
+            </div>
+            <div class="col-md-11 mb-1">
+            <label for="validationCustomEmail">Año</label>
+            <div class="input-group">
+            <input type="text" class="form-control" id="validationCustomEmail" placeholder="Año de creacrion " 
+            aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+            por favor  ingrese un año
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="form-row">
+            <div class="col-md-11 mb-1">
+            <label for="validationCustom03">Cilindro</label>
+            <input type="text" class="form-control" id="validationCustom03" placeholder="Cilindro" required>
+            <div class="invalid-feedback">
+                por favor ingrese un Cilindro
+            </div>
+            </div>
+            <div class="col-md-11 mb-1">
+            <label for="validationCustom04">Transmisión</label>
+            <input type="text" class="form-control" id="validationCustom04" placeholder="Transmisión" required>
+            <div class="invalid-feedback">
+            Por favor igrese una Transmisión.
+            </div>
+            </div>
+            </div>
+          
+            <button class="btn btn-primary col-md-11" type="submit">Registrar automovil</button>
+            </form>
+            <script>
+             // Example starter JavaScript for disabling form submissions if there are invalid fields
+              (function () {
+             'use strict'; 
+            window.addEventListener('load', function () {
+                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                  var forms = document.getElementsByClassName('needs-validation');
+                  // Loop over them and prevent submission
+                  var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                      if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                      }
+            form.classList.add('was-validated');
+               }, false);
+               });
+              }, false);
+             })();
+            </script>
+            
+            
+         </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card-header">
+          <img src="images/addimagen.png" class="img-fluid rounded mx-auto d-block">
+        </div>
+        <div class="card-body text-center">
+          <h4>Agregar imagen</h4>
+        </div>
+      </div>
+     
+      
+    </div>
+      
+      
+      
+      
+      
+      
+      <script type="text/javascript" src="js/mdb.min.js"></script>
+         
+      <script type="text/javascript" src="js/script.js"></script>
+
+
+
+
+   
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
